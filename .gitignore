@@ -1,25 +1,22 @@
 ```
 # Dependencies
 node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
+.julia/
+.zig-cache/
 
 # Build artifacts
 dist/
 build/
+target/
+__pycache__/
 *.pyc
 *.class
 *.o
+*.obj
 *.exe
 *.dll
 *.so
 *.a
-*.obj
 *.out
 
 # Environment
@@ -32,19 +29,19 @@ build/
 .idea/
 *.swp
 *.swo
+
+# Logs and temp files
+*.log
 *.tmp
 
-# System
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
 # Coverage
+.coverage
 coverage/
 htmlcov/
-.coverage
+
+# OS
+.DS_Store
+Thumbs.db
 
 # Compressed files
 *.zip
@@ -65,5 +62,8 @@ htmlcov/
 *.Z
 *.lz
 *.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```.next/
-.next/
